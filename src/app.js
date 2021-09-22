@@ -8,6 +8,15 @@ var animals = {
   "🐫": "Camel",
   "🐵": "Monkey",
   "🐶": "Dog",
+  "😸": "Cat",
+  "🦊": "Fox",
+  "🐼": "Panda",
+  "🐯": "Tiger",
+  "🦁": "Lion",
+  "🐸": "Frog",
+  "🐧": "Penguin",
+  "🦄": "Unicorn",
+  "🐴": "Horse",
 };
 var animalsKeys = Object.keys(animals);
 // console.log(animalsKeys);

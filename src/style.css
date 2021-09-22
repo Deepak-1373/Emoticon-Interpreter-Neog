@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.App {
+  width: 80%;
+  margin: auto;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.App h1 {
+  text-align: center;
+}
+
+.App span {
+  font-size: 24px;
+  border: 1px solid #2563eb;
+}
+
+.App input {
+  padding: 0.8rem;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 1.5rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-weight: bold;
+}
+
+body {
+  background: #bfdbfe;
+}
