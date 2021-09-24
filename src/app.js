@@ -15,8 +15,18 @@ var animals = {
   "🦁": "Lion",
   "🐸": "Frog",
   "🐧": "Penguin",
-  "🦄": "Unicorn",
+  "🐊": "Crocodile",
   "🐴": "Horse",
+  "🦞": "Scorpion",
+  "🐙": "Octopus",
+  "🐘": "Elephant",
+  "🐪": "Camel",
+  "🦈": "Shark",
+  "🐍": "Snake",
+  "🐬": "Dolphin",
+  "🐋": "Whale",
+  "🦏": "Rhinoceros",
+  "🐑": "Sheep",
 };
 var animalsKeys = Object.keys(animals);
 // console.log(animalsKeys);
@@ -46,6 +56,7 @@ export default function App() {
       {animalsKeys.map(function (keys) {
         return (
           <span
+            className="animal-box"
             onClick={function () {
               clickEmojiHandler(keys);
             }}
